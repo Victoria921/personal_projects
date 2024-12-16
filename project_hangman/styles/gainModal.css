@@ -1,0 +1,51 @@
+.gain-modal {
+    display: block;
+    position: fixed;
+    z-index: 6; 
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.contentModalGain {
+    background-image: url(../assets/ciel.png);
+    height: 100%;
+    border: 1px solid #888;
+    width: 100%;
+}
+.class-div-imgGain {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+.img-gain {
+    height: 100%;
+}
+
+.gainButton {
+    display: flex;
+    justify-content: center;
+}
+
+.contentModalGain button {
+    display: flex;
+    border-radius: 50%;
+    /* margin-top: 5%; */
+    height: 10%;
+    width: 10%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 117, 162);
+    background: radial-gradient(circle at bottom, rgb(90, 130, 182, 100%), rgb(90, 130, 182, 10%), rgb(53, 76, 107, 10%), #062745 100%);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 -8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.gainButton {
+    display: flex;
+    justify-content: center;
+}
+
+.scoreGain {
+    text-align: center;
+}

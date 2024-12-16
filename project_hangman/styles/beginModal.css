@@ -1,0 +1,74 @@
+.beginGame {
+    display: block;
+    position: fixed;
+    z-index: 6; 
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.contentModalBegin {
+    background-image: url(../assets/ciel.png);
+    height: 100%;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.div-img {
+    visibility: hidden;
+}
+
+
+h1 {
+    /* border: solid 3px black; */
+    font-family: cursive;
+    color: #062745;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 6vw;
+    height: 20%;
+}
+
+
+
+.buttonStart:active {
+    box-shadow: none;
+}
+
+.buttonStart {
+    /* border: solid 3px black; */
+    display: flex;
+    border-radius: 50%;
+    padding: 8%;
+    height: 30%;
+    width: 20%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 117, 162);
+    background: radial-gradient(circle at bottom, rgb(90, 130, 182, 100%), rgb(90, 130, 182, 10%), rgb(53, 76, 107, 10%), #062745 100%);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 -8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.difficultyChoice {
+    /* border: solid black 3px; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difficultyChoice label {
+    font-size: 2vw;
+    font-family:cursive;
+    color: #062745;
+}
+
+.divButton {
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+

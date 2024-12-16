@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du pendu</title>
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="stylesheet" href="styles/beginModal.css">
+    <link rel="stylesheet" href="styles/lostModal.css">
+    <link rel="stylesheet" href="styles/gainModal.css">
+    <link rel="stylesheet" media="(max-width: 503px)" href="styles/styleXXSmall.css">
+    <link rel="stylesheet" media="(min-width: 503px) and (max-width: 576px)" href="styles/styleXSmall.css">
+    <link rel="stylesheet" media="(min-width: 576px) and (max-width: 779px)" href="styles/styleSmall.css">
+    <link rel="stylesheet" media="(min-width: 779px) and (max-width: 1135px)" href="styles/styleMedium.css">
+    <link rel="stylesheet" media="(min-width: 1135px)" href="styles/styleLarge.css">
+</head>
+
+<body id="id-body">
+    <div class="beginGame" id="id-beginGame">
+        <div class="contentModalBegin">
+            <h1>Le jeu du pendu</h1>
+            <form class="difficultyChoice">
+                <input type="radio" id="id-easy" name="difficulty" required>
+                <label for="id-easy">Facile</label>
+                <input type="radio" id="id-medium" name="difficulty">
+                <label for="id-medium">Moyen</label>
+                <input type="radio" id="id-hard" name="difficulty">
+                <label for="id-hard">Difficile</label>
+            </form>
+            <div class="divButton">
+                <button type="button" class="buttonStart" id="id-buttonStart">Commencer la partie</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="id-game" class="class-game">
+        <p id="id-pErreurs">Erreurs commises :</p>
+        <div class="div-img" id="id-img">
+            <!-- <p>Compteur</p> -->
+            <img class="img-boat" id="id-boat" src="./assets/bateau2.png" alt="">
+            <img class="img-ile" id="id-ile" src="./assets/ile1.png" alt="">
+        </div>
+        <div id="id-divGen" class="class-divGen">
+        </div>
+        <div id="div-div-gen" class="div-div-gen">
+            <div class="div-table">
+                <table id="id-tableMotATrouver">
+                    <tr id="id-trMotATrouver"></tr>
+                </table>
+            </div>
+            <div id="id-divAlphabet" class="class-divAlphabet">
+            </div>
+        </div>
+    </div>
+    
+    <div id="id-gainModal" class="gain-modal">
+        <div id="id-contentGainModal" class="contentModalGain">
+            <div id="img-gain" class="class-div-imgGain">
+                <img class="img-gain" src="./assets/imageGain.png" alt="">
+            </div>
+            <div class="gainButton">
+                <button id='id-restartGainButton'>Rejouer</button>
+            </div>
+            <div class="scoreGain" id="id-scoreGain">
+                <p id="id-victoiresGain">Vous avez gagné tant de parties</p>
+                <p id="id-defaitesGain">Vous avez gagné tant de parties</p>
+                <p id="id-pourGain">Votre pourcentage de victoire est de %.</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="id-lostModal" class="lost-modal">
+        <div id="id-contentModal" class="contentModalLost">
+            <div class="lostButton">
+                <button id='id-restartLostButton'>Rejouer</button>
+            </div>
+            <div class="scoreLost" id="id-scoreLost">
+                <p id="id-victoiresLost">Vous avez gagné tant de parties</p>
+                <p id="id-defaitesLost">Vous avez gagné tant de parties</p>
+                <p id="id-pourLost">Votre pourcentage de victoire est de %.</p>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="table.js"></script>
+    <!-- <script src=""></script> -->
+    <script src="pendu.js"></script>
+</body>
+
+</html>
