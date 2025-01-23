@@ -1,0 +1,146 @@
+body {
+    box-sizing: content-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #FF10A0, #4010B0, #6420D0, #64DDA0, #18E0F0);
+    color: white;
+    box-sizing: border-box;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+.title>p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+}
+
+a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+
+
+a[href*="subscribe"] {
+    background: white;
+    color: black;
+    border-radius: 16px;
+    padding: 2px;
+    margin: auto;
+}
+
+
+main {
+    box-sizing: border-box;
+    margin-top: 0;
+
+}
+
+
+img {
+    display: flex;
+    position: relative;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.img1 {
+    display: flex;
+    position: relative;
+    height: 40%;
+    margin-top: 0;
+}
+
+.text1 {
+    display: block;
+    align-self: center;
+    height: 60%;
+}
+
+article p, h2 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+}
+
+.start {
+    margin: 5px;
+    color: rgb(207, 5, 5);
+}
+
+
+.grid {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "art1 art1"
+                         "art2 art3"
+                         "art4 art5"
+                         "art6 art7";
+}
+
+
+
+.art1 {
+    grid-area: art1;
+    display: flex;
+    margin: 0px 15px 15px 15px;
+}
+
+.art2 {
+    grid-area: art2;
+}
+
+.art3 {
+    grid-area: art3;
+}
+
+.art4 {
+    grid-area: art4;
+}
+
+.art5 {
+    grid-area: art5;
+}
+
+.art6 {
+    grid-area: art6;
+}
+
+.art7 {
+    grid-area: art7;
+} 
+
+footer {
+    background: black;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+footer> p, div {
+    display: flex;
+    justify-content: space-around;
+}

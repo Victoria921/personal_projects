@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Blog Creation Eval">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Victoria">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 576px)"  href="styles/styleSubMobile.css">
+    <link rel="stylesheet" media="(min-width: 576px) and (max-width: 992px)" href="styles/styleSubTablet.css">
+    <link rel="stylesheet" media="(min-width: 992px)" href="styles/styleSubDesktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Subscribe</title>
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+            <div class="navPage">
+                <a href="#home">Home</a>
+                <a href="#collection">Collection</a>
+                <a href="#about">About</a>
+                <a href="#portal">Portal</a>
+                <a href="#author">Author</a>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="subscribe.html" target="_blank">Subscribe</a>
+            </div>
+        </div>
+        
+        <div class="title">
+            <h1>CONTACT</h1>
+        </div>
+        
+    </header>
+    <main>
+        <form method="get" class="form">
+            <div class="grid">
+                <div class="firstname">
+                    <label for="id-firstname">First Name</label>
+                    <input type="text" name="firstname" id="id-firstname" required>
+                </div>
+                <div class="lastname">
+                    <label for="id-lastname">Last Name</label>
+                    <input type="text" name="lastname" id="id-lastname">
+                </div>
+                <div class="company">
+                    <label for="id-company">Company</label>
+                    <input type="text" name="company" id="id-company" required>
+                </div>
+                <div class="phone">
+                    <label for="id-phone">Phone Number</label>
+                    <input type="text" name="phone" id="id-phone" placeholder="phone" required>
+                </div>
+                <div class="email">
+                    <label for="id-email">Email</label>
+                    <input type="email" name="email" id="id-email" placeholder="email" required>
+                </div>
+                <div class="website">
+                    <label for="id-website">Your Website </label>
+                    <input type="url" name="website" id="id-website" placeholder="url" required>
+                </div>
+                <div class="reach">
+                    <p>When is the best time of day to reach you ?</p>
+
+                    <ul>
+                        <li>
+                            <input class="radio" type="radio" name="reachTime" id="id-morning" value="morning">
+                            <label for="id-morning">Morning</label>
+                        </li>
+                    
+                        <li>
+                            <input class="radio" type="radio" name="reachTime" id="id-evening" value="evening">
+                            <label for="id-evening">Evening</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p>Would you like to receive our email newsletter ?</p>
+                    <ul>
+                        <li>
+                            <input class="checkbox" type="checkbox" name="newsletter" id="id-newsletter" value="newsletter">
+                            <label for="id-newsletter">Sure !</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <input class="submit" type="submit" value="Submit">
+                </div>
+            </div>
+            
+        </form>
+
+    </main>
+    <footer>
+        <p>Ghost &#xA9; 2021</p>
+        <div>
+            <nav>Data & Privacy</nav>
+            <nav>Contact</nav>
+            <nav>Center</nav>
+        </div>
+        <p>Produced by Ghost</p>
+    </footer>
+    
+</body>
+</html>

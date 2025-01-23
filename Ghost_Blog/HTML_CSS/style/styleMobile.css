@@ -1,0 +1,147 @@
+body {
+    border: 3px solid magenta;
+    box-sizing: content-box;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* height: 20%; */
+    /* display: flex; */
+}
+
+.title {
+    /* background: blue; */
+    display: block;
+    /* /* justify-content: center; */
+    /* align-items: center;  */
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding: 5px;
+}
+
+
+footer {
+    background: black;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    /* height: 15%; */
+}
+
+footer> p, div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main {
+    border: 3px black solid;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* height: 65%; */
+    /* height: 100vh;
+    margin: 0; */
+
+}
+
+img {
+    /* float: left; */
+    /* box-sizing: border-box; */
+    height: 200px;
+    display: flex;
+    margin: auto;
+    /* width: 200px; */
+    /* overflow: hidden; */
+    /* padding: 50px; */
+    /* clear:; */
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100px;
+    width: 200px; */
+}
+
+article p, h2 {
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+    text-align: center;
+    margin: 10px;
+}
+
+.start {
+    margin: 5px;
+    color: darkred;
+}
+
+.text1 {
+    padding: 15px;
+    display: block;
+}
+
+.grid {
+    border: 3px lawngreen solid;
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: "art1"
+                         "art2"
+                         "art3"
+                         "art4"
+                         "art5"
+                         "art6"
+                         "art7";
+}
+
+
+
+.art1 {
+    grid-area: art1;
+    background: grey;
+}
+
+.art2 {
+    grid-area: art2;
+    background: darkmagenta;
+}
+
+.art3 {
+    grid-area: art3;
+    background: gold;
+}
+
+.art4 {
+    grid-area: art4;
+    background: cyan;
+}
+
+.art5 {
+    grid-area: art5;
+    background: blue;
+}
+
+.art6 {
+    grid-area: art6;
+    background: cyan;
+}
+
+.art7 {
+    grid-area: art7;
+    background: gold;
+} 
+

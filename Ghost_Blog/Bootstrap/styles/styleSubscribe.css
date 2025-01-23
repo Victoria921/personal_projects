@@ -1,0 +1,9 @@
+header {
+    background: linear-gradient(135deg, #FF10A0, #4010B0, #6420D0, #64DDA0, #18E0F0);
+}
+
+.container {
+    border-style: solid;
+    border-width: 30px;
+    border-image: linear-gradient(135deg, #FF10A0, #4010B0, #6420D0, #64DDA0, #18E0F0) 1;
+}

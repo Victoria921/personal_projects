@@ -1,0 +1,151 @@
+body {
+    /* border: 3px solid magenta; */
+    box-sizing: content-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 100vh; */
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    height: 60%;
+}
+
+header {
+    background: linear-gradient(135deg, #FF10A0, #4010B0, #6420D0, #64DDA0, #18E0F0);
+    color: white;
+    height: 25%;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* height: 20%; */
+    /* display: flex; */
+}
+
+.title {
+    /* background: blue; */
+    /* justify-content: center;
+    align-items: center; */
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h1 {
+    /* border: 2px red solid; */
+    margin-bottom: 0%;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons>a {
+    margin: 10px;
+}
+
+
+nav {
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+form {
+    padding: 50px;
+    height: 100%;
+    border: 10px solid;
+    height: 80%;
+    /* border-image: linear-gradient(135deg, #FF10A0, #4010B0, #6420D0, #64DDA0, #18E0F0), 1; */
+    /* border-image-slice: 1; */
+}
+
+.submit {
+    display: flex;
+    margin: auto;
+    background-color: rgb(11, 11, 129);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.grid {
+    /* background: grey; */
+    display: grid;
+    box-sizing: border-box;
+    /* height: 100%; */
+    /* margin: 50px; */
+    gap: 25px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: "firstname lastname"
+                         "company phone"
+                         "email website"
+                         "reach newsletter";
+}
+
+.firstname {
+    grid-area: firstname;
+    /* background: magenta; */
+}
+
+.lastname {
+    grid-area: lastname;
+    /* background: yellow; */
+}
+
+.company {
+    grid-area: company;
+    /* background: blue; */
+}
+
+.phone {
+    grid-area: phone;
+    /* background: cyan; */
+}
+
+.email {
+    grid-area: email;
+    /* background: orange; */
+}
+
+.website {
+    grid-area: website;
+    /* background: red; */
+}
+
+.reach {
+    grid-area: reach;
+    /* background: purple; */
+    display: block;
+}
+
+.newsletter {
+    grid-area: newsletter;
+    /* background: pink; */
+    display: block;
+}
+
+
+
+footer {
+    background: black;
+    height: 15%;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    /* height: 15%; */
+}
+
+footer> p, div {
+    display: flex;
+    justify-content: space-around;
+}
+
+

@@ -1,0 +1,166 @@
+body {
+    border: 3px solid magenta;
+    box-sizing: content-box;
+    /* overflow:scroll; */
+    /* height: 100vh; */
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* display: flex; */
+    /* height: 20%; */
+    /* display: ; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: block; */
+    /* text-align: center; */
+}
+
+.title {
+    /* background: blue; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: block;
+
+    /* text-align: center; */
+    padding-bottom: 15px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: left;
+}
+
+nav {
+    padding: 10px;
+}
+
+
+
+footer {
+    background: black;
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    /* justify-content: space-around; */
+    padding-bottom: 50px;
+    /* height: 15%; */
+}
+
+footer> p, div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main {
+    border: 3px black solid;
+    box-sizing: border-box;
+    /* height: 65%; */
+    /* display: flex; */
+    padding: 50px 300px;
+    /* overflow: scroll; */
+    /* height: 100vh;
+    margin: 0; */
+}
+
+/* div[class*=art] {
+    display: flex;
+} */
+
+img {
+    /* float: left; */
+    /* box-sizing: border-box; */
+    height: 100px;
+    display: flex;
+    /* overflow: hidden; */
+    /* padding: 50px; */
+    /* clear:; */
+    /* /* justify-content: center; */
+    align-items: center;
+    /* height: 100px;
+    width: 200px; */
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 250px;
+}
+
+.text1 {
+    margin-top: 50px;
+    display: block;
+}
+
+article p, h2 {
+    display: flex;
+    /* margin: auto; */
+    /* justify-content: center; */
+    text-align: left;
+    /* margin: 10px; */
+}
+
+.start {
+    margin: 5px;
+    color: darkred;
+}
+
+.grid {
+    border: 3px lawngreen solid;
+    box-sizing: border-box;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: "art1 art1 art1"
+                         "art2 art3 art4"
+                         "art5 art6 art7";
+}
+
+
+
+.art1 {
+    grid-area: art1;
+    background: grey;
+    
+}
+
+.art2 {
+    grid-area: art2;
+    background: darkmagenta;
+    /* margin: 15px; */
+}
+
+.art3 {
+    grid-area: art3;
+    background: gold;
+}
+
+.art4 {
+    grid-area: art4;
+    background: cyan;
+}
+
+.art5 {
+    grid-area: art5;
+    background: blue;
+}
+
+.art6 {
+    grid-area: art6;
+    background: cyan;
+}
+
+.art7 {
+    grid-area: art7;
+    background: gold;
+} 
+
