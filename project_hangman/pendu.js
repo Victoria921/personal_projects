@@ -28,7 +28,6 @@ function startGame() {
     })
 }
 
-
 function checkDifficulty() {
     let buttonEasy = document.getElementById('id-easy');
 
